@@ -11,7 +11,6 @@ import {
   Pencil,
   LogOut,
   Globe2,
-  ArrowLeft,
 } from "lucide-react";
 
 /* =========================
@@ -140,8 +139,11 @@ function useLang() {
 function Logo() {
   return (
     <div className="brand">
-      <div className="brand-name">عَولِم</div>
-      <div className="brand-en">AWLIM</div>
+      <img
+        className="brand-logo"
+        src="/awlim-logo-transparent.png"
+        alt="عَولِم AWLIM"
+      />
     </div>
   );
 }
